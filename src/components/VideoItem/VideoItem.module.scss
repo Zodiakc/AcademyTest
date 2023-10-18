@@ -1,6 +1,6 @@
 .item {
     border-radius: 20px;
-    height: 320px;
+    height: 35vh;
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -28,5 +28,23 @@
     }
     & p {
         font-size: 1.1rem;
+    }
+}
+@media (max-width: 1318px) {
+    .item {
+        & button {
+            width: 70%;
+        }
+    }
+}
+@media (max-width: 950px) {
+    .item {
+        flex: 0 0 33.333333%;
+        & button {
+            width: 100%;
+        }
+    }
+    .coin {
+        max-width: 15px;
     }
 }

@@ -34,3 +34,15 @@
         }
     }
 }
+@media (max-width: 900px) {
+    .arrowsCirce {
+        right: -20%;
+    }
+}
+@media (max-width: 440px) {
+    .arrowsCirce {
+        right: 0;
+        top: 90%;
+        opacity: 1;
+    }
+}

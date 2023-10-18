@@ -8,7 +8,7 @@ const VideoItem = ({ source }) => {
             style={{ backgroundImage: `url( ${source})` }}
         >
             <button>
-                <img src={Coin} />
+                <img src={Coin} className={styles.coin} />
                 <span>Earn 2T</span>
             </button>
             <p>Fundamental of investment</p>

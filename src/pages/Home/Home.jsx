@@ -13,6 +13,7 @@ import VideoItem from "../../components/VideoItem/VideoItem";
 import styles from "./Home.module.scss";
 import { Link } from "react-router-dom";
 import { SliderContext } from "../../App";
+import burger from "../../assets/burger.svg";
 const Home = () => {
     const { slideId, setSlideId } = useContext(SliderContext);
 
@@ -28,6 +29,7 @@ const Home = () => {
                         <li>Crypto</li>
                         <li>NFTs</li>
                     </ul>
+                    <img src={burger} alt="burger" className={styles.burger} />
                 </header>
 
                 <Term header="New playlist" />

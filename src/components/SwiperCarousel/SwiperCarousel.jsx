@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { SliderContext } from "../../App";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -36,6 +36,11 @@ const SwiperCarousel = () => {
                 navigation={{
                     nextEl: styles.nextArrow,
                     prevEl: styles.prevArrow,
+                }}
+                breakpoints={{
+                    1250: {
+                        spaceBetween: 150,
+                    },
                 }}
                 modules={[EffectCoverflow, Pagination, Navigation]}
                 className={styles.swiper}

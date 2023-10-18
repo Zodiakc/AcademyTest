@@ -5,7 +5,7 @@ const Term = ({ header }) => {
         <div className={styles.term}>
             <h5>{header}</h5>
             <div className={styles.seeAll}>
-                <span>See all</span>
+                <span className={styles.seeAll}>See all</span>
                 <span>&#62;</span>
             </div>
         </div>

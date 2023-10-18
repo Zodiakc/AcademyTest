@@ -10,3 +10,14 @@
         font-size: 2rem;
     }
 }
+@media (max-width: 440px) {
+    .academy {
+        gap: 10px;
+        & span {
+            font-size: 1rem;
+        }
+        & h4 {
+            font-size: 1.5rem;
+        }
+    }
+}
