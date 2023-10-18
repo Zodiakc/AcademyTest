@@ -1,0 +1,26 @@
+.inputWrapper {
+    position: relative;
+}
+.search {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -40%);
+}
+.input {
+    background: none;
+    border: 1px solid #262626;
+    padding: 17px 0px;
+    padding-left: 50%;
+    border-radius: 100px;
+    width: 100%;
+    font-size: 1rem;
+    transition: 0.5s;
+}
+.input:focus {
+    padding: 17px 34px;
+    transition: 0.5s;
+    & + img {
+        display: none;
+    }
+}

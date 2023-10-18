@@ -1,0 +1,32 @@
+.item {
+    border-radius: 20px;
+    height: 320px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px -100px 23px -10px rgba(6, 6, 6, 0.6) inset;
+    transition: 0.3s;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.5;
+        transition: 0.3s;
+    }
+    & button {
+        background-color: #d89c05;
+        display: flex;
+        align-items: center;
+        border: none;
+        border-radius: 20px;
+        padding: 5px;
+        gap: 5px;
+        width: 50%;
+        & span {
+            font-weight: 700;
+            font-size: 0.8rem;
+        }
+    }
+    & p {
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,25 @@
+.sidebar {
+    background-color: black;
+    float: left;
+    height: 100vh;
+    width: 20vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .sidebarPhotos {
+        display: flex;
+        justify-content: flex-end;
+        gap: 14px;
+    }
+}
+.helpBlock {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.menuBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}

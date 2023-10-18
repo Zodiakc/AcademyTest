@@ -1,0 +1,14 @@
+.term {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 0;
+    & h5 {
+        font-size: 1.6rem;
+    }
+    .seeAll {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+}
